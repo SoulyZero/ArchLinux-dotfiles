@@ -9,4 +9,4 @@ sudo chmod +x basedarch.sh
 ```
 ./basedarch.sh
 ```
-![my config](https://i.imgur.com/7u3u4l9.jpg)
+![my config](https://i.imgur.com/Zq3ZN9L.jpg)
