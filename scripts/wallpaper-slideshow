@@ -4,6 +4,6 @@
 
 while true;
 do
-   find /home/souly/Wallpapers -type f -name '*.jpg' -o -name '*.png' | shuf -n 1 | xargs feh --bg-scale
+   find $HOME/Wallpapers -type f -name '*.jpg' -o -name '*.png' | shuf -n 1 | xargs feh --bg-scale
    sleep 5m
 done &
