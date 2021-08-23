@@ -72,7 +72,7 @@ Plug 'majutsushi/tagbar'
 Plug 'vim-scripts/IndexedSearch'
 " A couple of nice colorschemes
 " Plug 'fisadev/fisa-vim-colorscheme'
-Plug 'patstockwell/vim-monokai-tasty'
+Plug 'phanviet/vim-monokai-pro'
 " Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -218,7 +218,7 @@ if has('gui_running') || using_neovim || (&term =~? 'mlterm\|xterm\|xterm-256\|s
     if !has('gui_running')
         let &t_Co = 256
     endif
-    colorscheme vim-monokai-tasty
+    colorscheme monokai_pro
 else
     colorscheme delek
 endif

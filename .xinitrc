@@ -10,11 +10,6 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 if [ -f $sysresources ]; then
 
 
-
-
-
-
-
     xrdb -merge $sysresources
 
 fi
@@ -50,5 +45,5 @@ fi
 
 nitrogen --restore &
 key-mapper-control --command autoload &
-/home/souly/scripts/wallpaper-slideshow &
+$HOME/scripts/wallpaper-slideshow &
 exec i3
